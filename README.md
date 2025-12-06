@@ -119,6 +119,21 @@ Ranking from lowest to highest win rate:
 - **Improved Q-learning** displayed more diverse actions  
 - **Expectimax** underperformed due to shallow lookahead limits  
 
+## Sample Results
+
+### Win Rate Comparison
+![win-rate](images/winrate.png)
+
+### Bankroll Growth in Betting Simulation
+![bet-comparison](images/bet_comparison.png)
+
+### Q-Table of Original Q-learning Agent
+![qtable-original](images/qtable_original.png)
+
+### Q-Table of Improved Q-learning Agent
+![qtable-new](images/qtable_new.png)
+
+
 Detailed plots and explanations are available in `report.pdf`.
 
 
