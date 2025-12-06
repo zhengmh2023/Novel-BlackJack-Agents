@@ -1,6 +1,21 @@
 # Novel Blackjack Agents  
 ### (ShanghaiTech University CS181 Artificial Intelligence Final Project)  
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+
+## Table of Contents
+- [Overview](#overview)
+- [Game Rules Summary](#game-rules-summary)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Experimental Results Summary](#experimental-results-summary)
+- [License](#license)
+- [Academic Honesty Notice](#academic-honesty-notice)
+- [Authors](#authors)
+
+
 This repository implements multiple AI agents for a redesigned Blackjack game with expanded actions and dynamic betting rules.  
 Compared to classic Blackjack, our novel environment introduces a richer decision space suitable for reinforcement learning, adversarial search, and decision-theoretic approaches.
 
