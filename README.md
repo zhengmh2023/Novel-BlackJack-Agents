@@ -56,8 +56,10 @@ Agent/
 Game/
 └── BlackJack.py
 
-BlackJack.ipynb        # Jupyter notebook for testing/analysis
-report.pdf             # Final project report
+BlackJack.ipynb
+README.md    
+report.pdf
+requirements.txt            
 ```
 
 # Installation
