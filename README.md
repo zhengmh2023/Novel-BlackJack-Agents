@@ -10,6 +10,7 @@
 - [Game Rules Summary](#game-rules-summary)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Experimental Results Summary](#experimental-results-summary)
 - [License](#license)
 - [Academic Honesty Notice](#academic-honesty-notice)
@@ -61,32 +62,33 @@ This introduces stochasticity and long-term strategy considerations.
 # Project Structure
 
 ```text
-Agent/
-├── DQN/
-├── MDP/
-├── expectimax/
-├── qlearning/
-└── random/
-
-Game/
-└── BlackJack.py
-
-BlackJack.ipynb
-README.md    
-report.pdf
-requirements.txt            
+Project/
+├── Agent/
+│   ├── ...
+├── Game/
+│   └── BlackJack.py
+├── Images/
+│   ├── winrate.png
+│   ├── bet_comparison.png
+│   ├── qtable_original.png
+│   └── qtable_new.png
+├── BlackJack.ipynb
+├── README.md
+├── report.pdf
+└── requirements.txt
+         
 ```
 
 # Installation
 1. Clone the repository
 
-```text
+```bash
 git clone https://github.com/zhengmh2023/Novel-BlackJack-Agents.git
 cd Novel-BlackJack-Agents
 ```
 
 2. Install dependencies
-```text
+```bash
 pip install -r requirements.txt
 ```
 ## Usage
@@ -122,16 +124,16 @@ Ranking from lowest to highest win rate:
 ## Sample Results
 
 ### Win Rate Comparison
-![win-rate](images/winrate.png)
+![win-rate](Images/winrate.png)
 
 ### Bankroll Growth in Betting Simulation
-![bet-comparison](images/bet_comparison.png)
+![bet-comparison](Images/bet_comparison.png)
 
 ### Q-Table of Original Q-learning Agent
-![qtable-original](images/qtable_original.png)
+![qtable-original](Images/qtable_original.png)
 
 ### Q-Table of Improved Q-learning Agent
-![qtable-new](images/qtable_new.png)
+![qtable-new](Images/qtable_new.png)
 
 
 Detailed plots and explanations are available in `report.pdf`.
