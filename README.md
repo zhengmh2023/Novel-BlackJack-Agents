@@ -59,45 +59,12 @@ Game/
 BlackJack.ipynb        # Jupyter notebook for testing/analysis
 report.pdf             # Final project report
 
+---
+
 ## Installation
 
 ### 1. Clone the repository
+
 ```bash
 git clone https://github.com/zhengmh2023/Novel-BlackJack-Agents.git
 cd Novel-BlackJack-Agents
-
-### 2. Install dependencies
-
-pip install -r requirements.txt
-
-Experimental Results Summary
-
-We conducted two evaluation stages:
-
-1. Win-Rate Comparison (10,000 rounds)
-
-Ranking from lowest to highest win rate:
-
-Random
-
-Expectimax
-
-Q-learning
-
-Improved Q-learning
-
-DQN
-
-MDP
-
-2. Betting Simulation (300 rounds)
-
-MDPWithBet achieved the fastest bankroll convergence
-
-DQN outperformed Q-learning due to generalization
-
-Improved Q-learning showed better action diversity
-
-Expectimax underperformed due to limited search depth
-
-Figures and detailed explanations are included in report.pdf.
