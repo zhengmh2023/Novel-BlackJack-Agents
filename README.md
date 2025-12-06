@@ -89,6 +89,13 @@ cd Novel-BlackJack-Agents
 ```text
 pip install -r requirements.txt
 ```
+## Usage
+
+To run the project, simply open the Jupyter notebook:
+
+```bash
+jupyter notebook BlackJack.ipynb
+```
 
 ## Experimental Results Summary
 
