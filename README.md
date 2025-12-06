@@ -60,8 +60,64 @@ BlackJack.ipynb        # Jupyter notebook for testing/analysis
 report.pdf             # Final project report
 ```
 
-#Installation
+# Installation
 1. Clone the repository
+
+```text
 git clone https://github.com/zhengmh2023/Novel-BlackJack-Agents.git
 cd Novel-BlackJack-Agents
+```
+
+2. Install dependencies
+```text
+pip install -r requirements.txt
+```
+
+## Experimental Results Summary
+
+We conducted two evaluation stages:
+
+### 1. Win-rate Comparison (10,000 rounds)
+
+Ranking from lowest to highest win rate:
+
+1. Random  
+2. Expectimax  
+3. Q-learning  
+4. Improved Q-learning  
+5. DQN  
+6. MDP  
+
+### 2. Casino Betting Simulation
+
+- **MDPWithBet** converged fastest in bankroll growth  
+- **DQN** outperformed tabular Q-learning due to generalization  
+- **Improved Q-learning** displayed more diverse actions  
+- **Expectimax** underperformed due to shallow lookahead limits  
+
+Detailed plots and explanations are available in `report.pdf`.
+
+---
+
+## License
+
+This project is intended to be open-sourced under the **MIT License**.  
+(You may add a `LICENSE` file to activate the license officially.)
+
+---
+
+## Academic Honesty Notice
+
+This project was originally developed for the **ShanghaiTech University CS181 Artificial Intelligence** course.  
+Please **do not submit this code** as your own coursework.
+
+---
+
+## Authors
+
+- Meihan Zheng  
+- Tianyu Gu  
+- Yatu Zhang  
+
+For additional details, refer to the final report (`report.pdf`).
 
