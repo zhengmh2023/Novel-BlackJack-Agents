@@ -97,21 +97,17 @@ Ranking from lowest to highest win rate:
 
 Detailed plots and explanations are available in `report.pdf`.
 
----
 
 ## License
 
 This project is intended to be open-sourced under the **MIT License**.  
-(You may add a `LICENSE` file to activate the license officially.)
 
----
 
 ## Academic Honesty Notice
 
 This project was originally developed for the **ShanghaiTech University CS181 Artificial Intelligence** course.  
 Please **do not submit this code** as your own coursework.
 
----
 
 ## Authors
 
