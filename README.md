@@ -59,12 +59,3 @@ Game/
 BlackJack.ipynb        # Jupyter notebook for testing/analysis
 report.pdf             # Final project report
 
----
-
-## Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/zhengmh2023/Novel-BlackJack-Agents.git
-cd Novel-BlackJack-Agents
