@@ -87,7 +87,14 @@ git clone https://github.com/zhengmh2023/Novel-BlackJack-Agents.git
 cd Novel-BlackJack-Agents
 ```
 
-2. Install dependencies
+2. Create and activate a conda environment
+
+```bash
+conda create -n blackjack python=3.10 -y
+conda activate blackjack
+```
+
+3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
