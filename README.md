@@ -80,21 +80,21 @@ Project/
 ```
 
 # Installation
-1. Clone the repository
+# 1. Clone the repository
 
 ```bash
 git clone https://github.com/zhengmh2023/Novel-BlackJack-Agents.git
 cd Novel-BlackJack-Agents
 ```
 
-2. Create and activate a conda environment
+# 2. Create and activate a conda environment
 
 ```bash
 conda create -n blackjack python=3.10 -y
 conda activate blackjack
 ```
 
-3. Install dependencies
+# 3. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
@@ -110,7 +110,7 @@ jupyter notebook BlackJack.ipynb
 
 We conducted two evaluation stages:
 
-### 1. Win-rate Comparison (10,000 rounds)
+### 1. Win-rate Comparison
 
 Ranking from lowest to highest win rate:
 
